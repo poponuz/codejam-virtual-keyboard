@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+
+  textarea {
+    width: 100%;
+  }
+
+  .keyboard {
+    display: flex;
+    flex-wrap: wrap;
+
+    .key {
+      width: calc(100% / 15 - 4px);
+      height: 30px;
+      margin: 2px;
+      text-align: center;
+      overflow: hidden;
+      border-radius: 2px;
+      cursor: pointer;
+      background: crimson;
+    }
+
+    .key-pressed {
+      background:  coral;
+      border-radius: 7px;
+    }
+
+    .Backspace {
+      width: calc(100% / 15 * 2 - 4px);
+    }
+
+    .Tab {
+      width: calc(100% / 15 * 2 - 4px);
+    }
+
+    .CapsLock {
+      width: calc(100% / 15 * 2 - 4px);
+    }
+
+    .Enter {
+      width: calc(100% / 15 * 2 - 4px);
+    }
+
+    .Shift {
+      width: calc(100% / 15 * 2 - 4px);
+    }
+
+    .Control {
+      width: calc(100% / 15 * 2 - 4px);
+    }
+
+    .Space {
+      width: calc(100% / 15 * 6 - 4px);
+    }
+  }
+}
