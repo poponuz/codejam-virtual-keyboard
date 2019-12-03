@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+.content textarea {
+  width: 100%;
+}
+
+.content .keyboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content .keyboard .key {
+  width: calc(100% / 15 - 4px);
+  height: 30px;
+  margin: 2px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 2px;
+  cursor: pointer;
+  background: crimson;
+}
+
+.content .keyboard .key-pressed {
+  background:  coral;
+  border-radius: 7px;
+}
+
+.content .keyboard .Backspace {
+  width: calc(100% / 15 * 2 - 4px);
+  background: darkorange;
+}
+
+.content .keyboard .Tab {
+  width: calc(100% / 15 * 2 - 4px);
+  background: darkorange;
+}
+
+.content .keyboard .CapsLock {
+  width: calc(100% / 15 * 2 - 4px);
+  background: darkorange;
+}
+
+.content .keyboard .Enter {
+  width: calc(100% / 15 * 2 - 4px);
+  background: darkorange;
+}
+
+.content .keyboard .Shift {
+  width: calc(100% / 15 * 2 - 4px);
+  background: darkorange;
+}
+
+.content .keyboard .Control {
+  width: calc(100% / 15 * 2 - 4px);
+  background: darkorange;
+}
+
+.content .keyboard .Space {
+  width: calc(100% / 15 * 6 - 4px);
+  background: darkorange;
+}
+/*# sourceMappingURL=style.css.map */
